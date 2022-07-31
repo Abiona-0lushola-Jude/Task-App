@@ -2,15 +2,17 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 const cors = require('cors')
+require('dotenv').config()
 const PORT  = process.env.PORT || 3007
 const Tasks = require('./models/task')
 // MiddleWares
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
+
 app.use(express.static('interactive-comment'))
 // connecting mongoose
-
-mongoose.connect("mongodb+srv://Abiona:Olushola@cluster0.tnvggcp.mongodb.net/?retryWrites=true&w=majority", ()=>{
+const connectionString = process.env.DATABASE_URL
+mongoose.connect(connectionString, ()=>{
     console.log("DATABASE IS CONNECTED")
 })
 
