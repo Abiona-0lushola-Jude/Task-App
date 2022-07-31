@@ -1,0 +1,21 @@
+const mongoose = require('mongoose')
+
+const taskSchema = new mongoose.Schema({
+    text:{
+        required: true,
+        type: String,
+    },
+    time:{
+        type: String
+    },
+    createdAt:{
+        type:Date,
+        default: Date.now,
+    },
+    remainder:{
+        type:Boolean
+    }
+})
+
+
+module.exports = mongoose.model('Tasks', taskSchema)

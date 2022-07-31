@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    padding: .7rem 1rem;
+    margin-block: 1rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 0 1rem;
+}
+.header button{
+    width: max-content;
+    padding: .6rem 1.5rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+}
+label,
+input{
+    display: block;
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    margin-block: 0.8rem;
+}
+input{
+    width: 96%;
+    height: 1.89rem;
+}
+.checked{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checked input{
+    height: 1rem;
+    width: 1rem;
+}
+form button{
+    padding:0.7rem;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+}
+.task-container,
+.task-remainder{
+    padding: .7rem 1rem .7rem 0.7rem;
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: .4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.task-remainder{
+    border-left: 0.5rem solid green;
+    border-radius: 0;
+}
+.task-delete{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.task-delete button{
+    border: none;
+    height: max-content;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.3rem;
+    color: whitesmoke;
+    background-color: red;
+}
+.open{
+    text-align: center;
+}
