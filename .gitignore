@@ -4,3 +4,4 @@ robots.txt
 README.md
 .vscode
 rest.http
+.env
