@@ -9,7 +9,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-   - [Dependency to install] (#dependency)
+  - [Dependency to install](#dependency)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
