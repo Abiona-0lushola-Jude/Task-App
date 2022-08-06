@@ -9,6 +9,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+   - [Dependency to install] (#dependency)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -45,6 +46,11 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - Node.js with dependencies including express, nodemon, cors
+
+
+### dependency
+- Install express in order to get access to the node_modules packages and dotenv to access database if given the string for connection
+- run it as "npm start" if all the above is considered right.
 
 
 ## Author
